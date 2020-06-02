@@ -19,6 +19,20 @@
   font-style: normal;
   display: swap; }
 
+@font-face {
+  font-family: 'Roboto Thin';
+  src: url("../fonts/Roboto/Roboto-Thin.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  display: swap; }
+
+@font-face {
+  font-family: 'Roboto Light';
+  src: url("../fonts/Roboto/Roboto-Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  display: swap; }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -373,7 +387,9 @@ body {
     font-weight: 700;
     line-height: 28.8px;
     margin-left: 0.857rem;
-    font-family: 'Roboto Bold'; }
+    font-family: 'Roboto Bold';
+    text-decoration: none;
+    color: #0f1c2e; }
 
 .nav {
   margin-left: -3.5rem; }
@@ -457,7 +473,46 @@ body {
     font-weight: 300;
     line-height: 28.76px;
     margin-left: 3.6rem; }
+  .hero__why {
+    font-family: "Myriad Pro Regular";
+    font-size: 39.5px;
+    font-weight: 400;
+    width: 294px;
+    height: 72px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 11.9rem;
+    margin-top: -19rem; }
+  .hero__reasons {
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0; }
+  .hero__95 {
+    font-size: 342px;
+    font-weight: 400;
+    font-family: 'Roboto Thin';
+    margin-left: -1rem;
+    padding: 0;
+    max-height: 249px;
+    letter-spacing: -17.1px;
+    line-height: 80.91px;
+    color: #0f1c2e; }
+  .hero__percent {
+    font-weight: 400;
+    font-size: 112px;
+    font-family: 'Roboto Thin';
+    color: #06bee1;
+    margin: 0;
+    padding: 0;
+    margin-left: 2.15rem;
+    margin-right: 12rem; }
 
 .thirty-days {
   text-decoration: none;
   color: #06bee1; }
+
+.search-photo {
+  margin-right: 13.9rem; }
