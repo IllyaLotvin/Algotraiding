@@ -1,0 +1,144 @@
+.lesson
+    background: url('../img/lesson-bg.jpg') no-repeat center
+    padding-top: 5.8rem
+    padding-bottom: 8.5rem
+    margin-top: 0
+    &__h2
+        color: #ffffff
+        font-size: 36.2px
+        font-weight: 700
+        line-height: 42px
+        margin-bottom: 3rem
+    &__blocks
+        display: flex
+    &__col1
+        flex-basis: 51.8%
+    &__col2
+        flex-basis: 48.2%
+    &__h3
+        color: #ffffff
+        font-size: 24px
+        font-weight: 700
+        line-height: 28.8px
+        margin-bottom: 2.2rem
+    &__ol
+        margin-left: 0
+        padding-left: 0
+        padding-left: 2rem
+        margin-bottom: 3rem
+    &__ol2
+        margin-left: 0
+        padding-left: 0
+        padding-left: 1.5rem
+        margin-bottom: 3rem
+    &__item
+        color: #ffffff
+        font-size: 24px
+        font-family: 'Roboto Light'
+        line-height: 28.8px
+        margin-bottom: 1.4rem
+        list-style-type: upper-alpha 
+        &::before
+            content: ''
+            list-style-type: upper-alpha 
+            color: #68799a
+            font-size: 16px
+            font-weight: 300    
+            line-height: 24px
+    &__item2
+        color: #ffffff
+        font-size: 15.7px
+        font-weight: 300
+        line-height: 24px
+        margin-top: 2.5rem
+        list-style-type: upper-alpha 
+    &__bonush3
+        color: #ffffff
+        font-size: 24px
+        font-weight: 700
+        line-height: 28.8px
+        margin-top: 4.8rem
+        margin-bottom: 1.6rem
+        padding-top: 5rem
+        border-top: 1px solid #26556c
+        max-width: 456px
+    &__text
+        color: #68799a
+        font-size: 15.7px
+        font-weight: 300
+        line-height: 24px
+        padding-left: 2rem
+    &__bonus
+        display: flex
+        align-items: center
+    &__bonus-text
+        color: #68799a
+        font-size: 16px
+        font-weight: 300
+        line-height: 24px
+        margin-left: 2.3rem
+        margin-bottom: 0.4rem
+    &__buttons
+        display: flex
+        align-items: center
+        justify-content: center
+        margin-top: 6rem
+    &__button-right
+        border-radius: 4px
+        border: 1px solid #ffffff
+        background: none
+        color: #ffffff
+        font-size: 16px
+        font-weight: 700
+        line-height: 43.14px
+        text-transform: uppercase
+        padding: 0.1rem 3.6rem
+    &__button-left
+        box-shadow: 0 12px 24px rgba(6, 57, 158, 0.32)
+        border-radius: 4px
+        background-color: #0842b7
+        color: #ffffff
+        font-size: 17px
+        font-weight: 700
+        text-transform: uppercase
+        padding: 1rem 3.6rem
+        margin-left: 2rem
+
+.swiper-pagination-bullet 
+    width: 1.85rem
+    height: 1.5rem
+    font-size: 16px
+    font-weight: 300
+    line-height: 33.2px
+    color: #ffffff
+    opacity: 1
+    text-align: center
+    // background: rgba(0,0,0,0.2)
+    background: none
+
+    
+.swiper-pagination-bullet-active 
+    width: 2.5rem
+    height: 2.5rem
+    background: #06bee1
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction 
+    width: auto
+    z-index: 20
+    top: 0
+    left: 51.4%
+    margin-top: 2.6rem
+    &::before
+        content: 'Номер урока'
+        color: #68799a
+        font-size: 16px
+        font-weight: 300
+        line-height: 43.2px
+        margin-right: 3.785rem
+.swiper-button-nextt
+    position: absolute
+    right: 0
+    cursor: pointer
+.swiper-button-prevv
+    position: absolute
+    left: 0
+    cursor: pointer
