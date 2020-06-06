@@ -12,7 +12,7 @@ const {src, dest, watch, series} = require("gulp"),
  function bs() {
    serveSass();
   browserSync.init({
-    proxy: "/index.html"
+    proxy: "index.html"
   });
   watch("./*.html").on("change", browserSync.reload);
   watch("./sass/**/*.sass" , serveSass);

@@ -1,5 +1,5 @@
 .question
-    background: url('../img/quest-bg.jpg') no-repeat center
+    background: url('../img/quest-bg.jpg') no-repeat center / cover
     padding-top: 8.5rem
     padding-bottom: 7.8rem
     &__container
@@ -27,12 +27,14 @@
         padding: 1.1rem 1rem
         margin-right: 1rem
         width: 18.785rem
+        margin-top: 0
         &::placeholder
             color: #0f1c2e
             font-size: 19px
             font-weight: 300
             line-height: 22.94px
     &__number
+        margin-top: 0
         border-radius: 4px
         background-color: #ffffff
         padding: 1.1rem 1rem
@@ -45,6 +47,7 @@
             line-height: 22.94px
             
     &__email
+        margin-top: 0
         border-radius: 4px
         background-color: #ffffff
         padding: 1.1rem 1rem
@@ -65,3 +68,7 @@
         font-weight: 700
         text-transform: uppercase
         padding: 0.1rem 3rem
+        max-height: 48px
+.input-group
+    margin: 0
+    padding: 0
